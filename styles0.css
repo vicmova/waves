@@ -1,0 +1,125 @@
+*{
+    font-family: 'Jura';
+}
+
+section{
+    background-color: #e5e1e1;
+    border-radius: 12px;
+    overflow: auto;
+    
+}
+
+section img{
+    float:left;
+    margin: 0px 10px;
+}
+
+img{
+    /*padding: 40px;*/
+    width:260px;
+}
+
+.clearfloat{
+    clear:both;
+}
+
+footer{
+    text-align: center;
+}
+
+#box0{
+    position: relative;
+    width: 600px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+#box1{
+    position: absolute;
+    top: 25px;
+    
+    float:left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: #aaaaaa67;
+    
+}
+
+#box2{
+    float:left;
+    width: 120px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: #AAAAAA;
+    
+}
+
+#box3{
+    float:right;
+    width: 120px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: #AAAAAA;
+    
+}
+
+#box4{
+    float:right;
+    width: 120px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: #AAAAAA;
+    
+}
+
+.restaurar{
+    clear: both;
+}
+
+footer{
+    padding: 40px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+#cajaimg{
+    position: relative;
+    width: 365px;
+    height: 274px;
+    overflow: hidden;
+}
+
+#contenedor{
+    position: absolute;
+    top:0px;
+    width:365px;
+    height: 324px;
+
+}
+
+#contenedorsuperior{
+    width:365px;
+    height: 274px;
+
+}
+
+#contenedorinferior{
+    width: 365px;
+    height: 35px;
+    padding-top: 15px;
+    background-color: rgb( 200, 200, 200, 0.8);
+    text-align: center;
+
+}
+
+#contenedor:hover{
+    top:-50px;
+}
